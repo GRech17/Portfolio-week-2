@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: rgb(255, 123, 0);
-    --padding-color: rgb(1, 250, 1);
+    --padding-color: rgba(1, 250, 1, 0.61);
     --tertiary-color: black;
     --quatrinary-color: rgb(65, 64, 64);  
 }
@@ -79,7 +79,7 @@ section {
 }
 
 .hero {
-    background-image: url(images\loading-gif.webp);
+    background-image: url(images/loading-gif.webp);
     background-position: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +113,7 @@ section {
 }
 
 .primary-border {
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     border-color: var(--primary-color);
 }
@@ -130,17 +131,15 @@ section {
     margin: 5px;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .page {
     flex: 1;
     margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    background: var(--quatrinary-color);
+    color: white;
 }
 
 .page-img {
@@ -156,6 +155,53 @@ section {
 }
 
 .page-1 {
-    background-image: ;
+    background-image: url(images/surf.jpeg);
 }
+
+.page-2 {
+    background-image: url(images/led-wall.jpeg);
+}
+
+.page-3 {
+    background-image: url(images/calculator.jpeg);
+}
+
+.page-4 {
+    background-image: url(images/pastel.jpeg);
+}
+
+.page-5 {
+    background-image: url(images/runbuddy.jpeg);
+}
+
+.page-text {
+    margin-top: auto;
+    width: 100%;
+    background-color:var(--quatrinary-color);
+    color: white;
+    padding: 10px 5px;
+    opacity: 0.9;
+} 
+
+.page-text h4 {
+    font-size: 12px;
+}
+
+.contact-sheet ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.contact-sheet ul li a {
+    padding: 20px 25px;
+    font-weight: 200;
+    font-size: 1.25vw;
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+
 
