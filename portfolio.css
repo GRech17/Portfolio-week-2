@@ -119,11 +119,13 @@ section {
 }
 
 .about-text {
-    line-height: 1.35;
     color: var(--tertiary-color);
     margin: 5px;
     font-size: 20px;
     display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: center;
 }
 
 .pages {
