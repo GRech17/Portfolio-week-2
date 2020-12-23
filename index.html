@@ -3,130 +3,105 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GABRIEL'S PORTFOLIO</title>
-  <link rel="stylesheet" href="portfolio.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-    <header>
-      <h1>
-        <a href="#portfolio">PORTFOLIO</a>
-      </h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Works</a>
-          </li>
-          <li>
-            <a href="images\Resume Gabriel Reches.pdf">Resume</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Nav section -->
+  <header>
+    <h1>
+        <a href="index.html">PORTFOLIO</a>
+    </h1>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#work">Works</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="images\Resume Gabriel Reches.pdf">Resume</a>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h2>Welcome, Take A Look</h2>
-        </div>
-    </section>
+  <!-- intro section -->
+  <section class="hero">
+    <div>
+      <h2>Welcome, take a look!</h2>
+    </div>
+  </section>
 
-    <section id="about-me">
-        <div class= "flex-row">
-            <h2 class="section-title primary-border">
-                About Me
-            </h2>
-            <p class= "about-text">
-                Gabriel here - thanks for stopping by. Below you will find a body of work created by me while attending Trilogy's Coding Bootcamp. This is just the first of many projects to come. 
-            </p>
+  <main class="page-wrapper">
+    <!-- about me section  -->
+    <section class="page-section" id="about-me">
+      <h2>About Me</h2>
+        <div>
+         <p>
+          Gabriel here - thanks for stopping by. Below you will find a body of work created by me while attending Trilogy's Coding Bootcamp. This is just the first of many projects to come. 
+         </p>
         </div>            
     </section>
 
-    <section id="work">
-        <div class="flex-row">
-            <h2 class="section-title primary-border">
-                Work
-            </h2>
+    <!-- portfolio section/grid -->
+  <section class="page-section" id="work">
+    <h2>Work</h2>
+        <div class="grid-container">
+                  
+        <a href="https://grech17.github.io/week-1-refactor/" 
+        class="grid-item surf-report">
+            <div>
+                <h3>Surf Report</h3>
+                <span>MERN Stack<span>
+            </div>          
+        </a>
 
-        <div class="pages">
-            <article class="page">  
-                <div class="page-img page-1"> <a href="https://grech17.github.io/week-1-refactor/"><div class="page-1"></div></a>
-                    <div class="page-text">
-                        <h3>Surf Report</h3>
-                        <h4>MERN Stack</h4>
-                    </div>   
-                </div>       
-            </article>
+        <a href="https://grech17.github.io/week-1-refactor/" 
+        class="grid-item led-wall">
+            <div>
+                <h3>LED Wall</h3>
+                <span>Node/IoT<span>
+            </div>          
+        </a>
+                
+        <a href="https://grech17.github.io/week-1-refactor/" 
+        class="grid-item calc">
+            <div>
+                <h3>Calculator</h3>
+                <span>React/Javascript/CSS<span>
+                </div>          
+        </a>   
 
-            <article class="page">
-                <div class="page-img page-2">
-                    <div class="page-text">
-                        <h3>LED Wall</h3>
-                        <h4>Node/IoT</h4>
-                    </div>   
-                </div>
-            </article>
+        <a href="https://grech17.github.io/week-1-refactor/" 
+        class="grid-item pastel-puzzles">
+            <div>
+                <h3>Pastel Puzzles</h3>
+                <span>MERN Stack<span>
+            </div>          
+        </a>
 
-            <article class="page">
-                <div class="page-img page-3">
-                    <div class="page-text">
-                        <h3>Calculator</h3>
-                        <h4>React/Javascript/CSS</h4>
-                    </div>   
-                </div>  
-            </article>    
+        <a href="https://grech17.github.io/week-1-refactor/" 
+        class="grid-item run-buddy">
+            <div>
+                <h3>Run Buddy</h3>
+                <span>HTML/CSS<span>
+            </div>          
+        </a>
 
-            <article class="page">
-                <div class="page-img page-4">
-                    <div class="page-text">
-                        <h3>Pastel Puzzels</h3>
-                        <h4>MERN Stack</h4>
-                    </div>   
-                </div>
-            </article>
+     </div>
+    </section>   
 
-            <article class="page">
-                <div class="page-img page-5">
-                    <div class="page-text">
-                        <h3>Run Buddy</h3>
-                        <h4>HTML/CSS</h4>
-                    </div>   
-                </div>
-            </article>
-        </div>   
-        </div>
-    </section>
-
-    <section id="contact-me" class="contact">
-        <div class="flex-row">
-            <h2 class="section-title primary-border">
-                Contact Me
-            </h2>
-
-        <div class="contact-sheet">
-            <ul>
-                <li>
-                  <a href="tel:8182096766">Phone</a>
-                </li>
-                <li>
-                  <a href="mailto:gireches@gmail.com">Email</a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/gir98/">Linkedin</a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/gir98/">GitHub</a>
-                </li>
-              </ul>
+    <!-- contact section -->
+    <section class="page-section contact-me" id="contact-me">
+        <h2>Contact Me</h2>
+        <div>
+            <address>  
+            <a href="tel:8182096766">Phone</a>
+            <a href="mailto:gireches@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/gir98/">Linkedin</a>
+            <a href="https://github.com/GRech17">GitHub</a>
+            </address>  
         </div>      
-        </div>
     </section>
+  </main>
 </body>
 
 </html>        
