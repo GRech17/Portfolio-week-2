@@ -246,6 +246,10 @@ main {
     background-image: url(images/runbuddy.jpeg);
 }
 
+.music-search {
+    background-image: url(images/music\ search.png);
+}
+
 @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
