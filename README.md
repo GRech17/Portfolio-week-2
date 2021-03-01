@@ -3,6 +3,9 @@ Week 2 Challenge
 
 This is an even-numbered week, so I'll create a web application from scratch! This week, I'll build a portfolio page, which I can add to as the course progresses.
 
+# Link to App 
+https://grech17.github.io/portfolio-week-2/
+
 # User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
